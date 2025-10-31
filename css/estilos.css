@@ -1,6 +1,7 @@
-        h1 {
+   /*1. por tipo de elemento HTML*/
+   h1 {
             color:red;
-            background-color: blue;
+            background: blue;
             border: 1px solid black;
             width: 600px;
             height: 90px;
@@ -19,5 +20,9 @@
         p{
             background: yellow;
             font-family: 'Times New Roman', Times, serif;
+        }
+
+        body {
+            background:black;
         }
     
