@@ -5,19 +5,19 @@
     align-items: center;
 }
 
-body{
+body {
     background-color: #59abe3;
 }
 
-p::before{
-    content:attr(type);
+p::before {
+    content: attr(type);
     display: block;
     font-size: 20px;
     color: #115888;
     margin-top: 30px;
 }
 
-input{
+input {
     width: 200px;
     border: none;
     border-bottom: 2px solid rgb(0, 21, 46);
@@ -25,34 +25,51 @@ input{
     color: whitesmoke;
 }
 
-input:focus{
+input:focus {
     outline: none;
     border-bottom: 3px solid white;
 }
 
-.formulario{
-    background: rgb(125, 207, 255);
+.formulario {
+    background: #7dcfff;
     border-radius: 10px;
     padding: 30px 40px;
-    box-shadow: 10px 20px rgb(138, 138, 138);
+    box-shadow: 10px 20px #8a8a8a;
 }
 
-button{
-    background: rgb(0, 132, 194);
-    padding: 10px 50px; 
+button {
+    background: #0084c2;
+    padding: 10px 50px;
     border-radius: 10px;
     color: whitesmoke;
     margin-top: 25px;
 }
 
-.centrar-boton{
+.centrar-boton {
     display: flex;
     justify-content: center;
 }
 
-h2, header {
+h2,
+header {
     color: #115888;
     border-bottom: 2px solid #00243b;
     font-size: 35px;
     margin-bottom: 15px;
+}
+
+.msg_error {
+    background: #f3caca;
+    border-left: 5px solid red;
+    padding: 10px;
+    color: #ff0000;
+    display: none;
+    font-weight: bold;
+    /*Es para darle una negrilla a las letras*/
+}
+.error_asterisco{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+
 }
